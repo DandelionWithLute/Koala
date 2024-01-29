@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.menubar{
+    position: fixed;
+    right: 100px;
+    
+}
+
+.items{
+    position: fixed;
+    right: 300px;
+    display: flex;
+    gap: 50px;
+}
+
+.logo{
+    position: fixed;
+    left: 100px;
+    user-select: none;
+}
+
+.title{
+    position: fixed;
+    left: 180px;
+    font-size: 48px;
+    user-select: none;
+}

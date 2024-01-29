@@ -1,0 +1,25 @@
+.firstPage {
+  height: calc(100vh - 100px);
+}
+
+.firstContainer {
+  height: 48vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.firstImageContainer {
+  height: 48vh;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstTextContainer {
+  height: 48vh;
+  width: 45%;
+  display: flex;
+  font-size: 20px;
+}
+.firstBottomContainer {
+}
