@@ -26,7 +26,27 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className={styles.firstBottomContainer}>firstBottomContainer</div>
+      <div className={styles.firstBottomContainer}>
+        <div className={styles.FBCTitle}>Koala's History with Human</div>
+        <div className={styles.FBCDesc}>
+          The first written reference to the koala was recorded by John Price,
+          servant of John Hunter, the Governor of New South Wales. Price
+          encountered the "cullawine" on 26 January 1798, during an expedition
+          to the Blue Mountains,[63] but his remarks would first be published in
+          Historical Records of Australia, nearly a century later.[2]: 8  In
+          1802, French-born explorer Francis Louis Barrallier encountered the
+          animal when his two Aboriginal guides, returning from a hunt, brought
+          back two koala feet they were intending to eat. Barrallier preserved
+          the appendages and sent them and his notes to Hunter's successor,
+          Philip Gidley King, who forwarded them to Joseph Banks. Similar to
+          Price, Barrallier's notes were not published until 1897.[2]: 9–10 
+          Reports of the "Koolah" appeared in the Sydney Gazette in late 1803,
+          and helped provide the impetus for King to send the artist John Lewin
+          to paint watercolours of the animal. Lewin painted three pictures, one
+          of which was used as a print in Georges Cuvier's Le Règne Animal (The
+          Animal Kingdom) (1827).
+        </div>
+      </div>
     </section>
   );
 }

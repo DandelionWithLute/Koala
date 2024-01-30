@@ -3,14 +3,19 @@
 }
 
 .firstContainer {
-  height: 48vh;
+  min-width: 1368px;
+  height: 490px;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 }
+
 .firstImageContainer {
   height: 48vh;
   width: 45%;
+  max-height: 450px;
+  min-width: 620px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,8 +23,22 @@
 .firstTextContainer {
   height: 48vh;
   width: 45%;
+  min-width: 580px;
   display: flex;
   font-size: 20px;
 }
+
 .firstBottomContainer {
+  height: 490px;
+}
+
+.FBCTitle {
+  font-size: 72px;
+  min-width: 1108px;
+}
+
+.FBCDesc {
+  font-size: 24px;
+  min-width: 1108px;
+  text-align: justify;
 }
